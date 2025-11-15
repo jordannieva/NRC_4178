@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="Pie.css" />
+  </head>
+  <body>
+    <nav class="topheader">
+      <a href=""Class "Logo">
+        <img  width="" height="" src="Logo/logo.svg" alt=""/>
+      </a>
+
+      <ul class="Menu-Horizontal">
+        <li><a href="">Promociones</a></li>
+        
+        <li>
+          <a href="">Soluciones</a>
+          <ul class="Menu-Vertical">
+            <li><a href="">Servicios Financieros</a></li>
+            <li><a href="">Seguros</a></li>
+            <li><a href="">Soluciones</a></li>
+            <li><a href="">Mundo Diners</a></li>
+          </ul>
+        </li>
+
+        <li><a href="">Privilegios</a></li>
+        <li><a href="">Canales</a></li>
+        <li><a href="*Contactanos">Contactanos</a></li>
+      </ul>
+    </nav>
+    <!--FORMULARIO-->
+    <section class = "seccion-formulario" id="Contactanos">
+      <dlv class = "div-count-formulario">
+        <h2> Formulario de Registro </h2>
+        <p> Complete todos los campos </p>
+          <form class = "Formulario">
+            <div class = "Campo">
+              <label for = "nombre"> Nombres Completos </label>
+              <input type = "text" id = "nombre" name="nombre" placeholder = "Ingrese sus nombres">
+            </div>
+            <!--DIV1-ListaDesplegable-->
+
+            <!--DIV2-ListaDesplegable-->
+            <div class = "Campo">
+              <label for = "nombre"> Pais </label>
+              <select id = "pais" name = "pais">
+                <option value = ""> seleccione un pais </option>
+                  <option value = "peru"> peru </option>
+                  <option value ="argentina"> argentina </option>
+                  <option value ="brasil"> brasil </option>
+              </select>
+            </div>
+            <!--DIV3-Checkbox-->
+            <div class = "Campo">
+              <label> Intereses: </label>
+              <ul class = lista-checkbox">
+                <li><label><input type = "Checkbox" name = "Intereses" value = "Arroz con Pollo"> Arroz con Pollo </label></li>
+                <li><label><input type = "Checkbox" name = "Intereses" value = "Ceviche"> Ceviche </label></li>
+                <li><label><input type = "Checkbox" name = "Intereses" value = "Causa"> Causa </label></li>
+                <li><label><input type = "Checkbox" name = "Intereses" value = "Lomo Saltado"> Lomo Saltado </label></li>
+              </ul>
+            </dlv>
+            <!--DIV4-Radio-->
+            <div class = "Campo">
+              <label> Sexo: </label>
+              <ul class = "lista-radio">
+                <li><label><input type = "radio" name = "Sexo" value = "M"> Masculino</label></li>
+                <li><label><input type = "radio" name = "Sexo" value = "F"> Femenino</label></li>
+              </ul>
+            </div>
+            <button input type="submit"> Enviar </button>
+          </form>
+
+            <!-- PIE DE PAGINA -->
+
+    <section id="footer">
+      <footer class="footer">
+        <div class="footer-container">
+          <!-- Logo y nombre de sitio -->
+          <div class="footer-brand">
+            <img
+              src="Logo/logo.svg"
+              alt="Logo"
+              class="footer-logo"
+            />
+            <p>SENATI</p>
+            <small>© 2025 Todos los derechos reservados</small>
+          </div>
+
+          <!-- Enlaces legales -->
+          <div class="footer-links">
+            <h4>Legal</h4>
+            <a href="/Documentos/3.politica-privacidad.pdf"
+              >Política de Privacidad</a
+            >
+            <!-- Dentro de href llama a un documento pdf con la poltica-->
+            <a href="#">Términos y Condiciones</a>
+            <!-- Dentro de href llama a un documento pdf con los terminos y condiciones-->
+            <a href="/Documentos/LeyProteccionDatos.pdf">Protección de Datos</a>
+          </div>
+
+          <!-- Redes sociales con íconos personalizados -->
+          <div class="footer-social">
+            <h4>Síguenos</h4>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/174/174848.png"
+                alt="Facebook"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/174/174855.png"
+                alt="Instagram"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+                alt="LinkedIn"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/733/733579.png"
+                alt="Twitter"
+                class="social-icon"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </section>
+          
+</body>
+</html>
