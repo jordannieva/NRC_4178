@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 /*TOP HEADER*/
 .topheader {
   position:fixed;
@@ -23,6 +25,7 @@
 }
 
 .Menu-Horizontal li a{
+  font-family: "IBM Plex Sans", sans-serif;
   text-decoration: none;
   padding: 15px 20px;
   color: black;
@@ -46,6 +49,7 @@
 }
 
 .Menu-Vertical li a {
+  font-family: "IBM Plex Sans", sans-serif;
   display: block;
   padding: 10px;
   color: black;
@@ -77,16 +81,19 @@
 }
 
 .div-top-texto h2{
+  font-family: "IBM Plex Sans", sans-serif;
   color: whitesmoke;
   margin-bottom: 15px;
 }
 
 .div-top-texto p{
+  font-family: "IBM Plex Sans", sans-serif;
   color: white;
   line-height: 1.6;
 }
 
 .div-top-texto button{
+  font-family: "IBM Plex Sans", sans-serif;
   margin-top: 20px;
   padding: 10px 20px;
   background-color: orange;
@@ -128,11 +135,13 @@
 }
 
 .div-receta-texto h2{
+  font-family: "IBM Plex Sans", sans-serif;
   color: whitesmoke;
   margin-bottom: 15px;
 }
 
 .div-receta-texto p{
+  font-family: "IBM Plex Sans", sans-serif;
   color: white;
   line-height: 1.6;
 }
@@ -159,6 +168,7 @@
 }
 
 .div-count-formulario{
+  font-family: "IBM Plex Sans", sans-serif;
   background-color:aliceblue;
   padding: 30px;
   border: 2px solid blueviolet;
@@ -205,4 +215,11 @@
   margin: 20px;
 
 }
+
+
+
+
+
+
+
 
